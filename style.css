@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    background-color: #000;
+    color: #fff;
+    overflow: hidden;
+}
+
+.menu-lateral {
+    width: 320px;
+    background-color: #9e7547;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    color: #f7e6d4;
+    border-bottom: 1px solid #b8905d;
+    padding-bottom: 20px;
+}
+
+.links-menu {
+    list-style: none;
+    margin-top: 35px;
+    flex-grow: 1;
+    padding: 14px 12px;
+}
+
+.links-menu li {
+    margin-bottom: 34px;
+}
+
+.links-menu a {
+    color: #f7e6d4;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 22px;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 12px 14px;
+    width: 100%;
+    transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.botao-sair {
+    border-top: 1px solid #b8905d;
+    padding-top: 20px;
+}
+
+.botao-sair a {
+    color: #f7e6d4;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+}
+
+.conteudo-principal {
+    flex: 1;
+    background-image: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url('fotodefundo.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.quadro-centro {
+    text-align: center;
+    max-width: 900px;
+    width: min(96%, 900px);
+}
+
+.linha-detalhe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 34px;
+}
+
+.linha-detalhe .linha {
+    height: 1px;
+    background-color: #cca873;
+    flex: 1;
+}
+
+h1, h2 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 70px;
+    letter-spacing: 2px;
+    color: #f5eedf;
+}
+
+h2 {
+    font-size: 58px;
+}
+
+.linha-divisoria {
+    width: 100%;
+    height: 2px;
+    background-color: #cca873;
+    margin: 40px 0;
+}
+
+p {
+    color: #dcd0c0;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 1.8;
+    margin-bottom: 42px;
+}
+
+.btn-nova-receita {
+    background-color: #9e7547;
+    color: #f7e6d4;
+    border: 1px solid #cca873;
+    padding: 20px 46px;
+    border-radius: 4px;
+    font-size: 20px;
+    letter-spacing: 1.8px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.btn-nova-receita:hover {
+    background-color: #b58954;
+}
