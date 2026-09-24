@@ -8,7 +8,7 @@ body {
     display: flex;
     height: 100vh;
     font-family: 'Poppins', sans-serif;
-    background-color: #000;
+    background-color: #0a0303;
     color: #fff;
     overflow: hidden;
     background: #000;
@@ -202,10 +202,14 @@ p {
     body {
         position: relative;
         overflow-x: hidden;
+        min-height: 100vh;
     }
 
     .conteudo-principal {
-        background-image: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url('fotofundocelular.png');
+        min-height: 100vh;
+        min-height: 100dvh;
+        height: 100vh;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(109, 60, 28, 0.45)), url('fotofundocelular.png');
         background-position: center center;
         background-size: cover;
     }
