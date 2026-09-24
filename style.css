@@ -4,9 +4,14 @@
     box-sizing: border-box;
 }
 
+html {
+    height: 100%;
+}
+
 body {
     display: flex;
-    height: 100vh;
+    min-height: 100vh;
+    min-height: 100dvh;
     font-family: 'Poppins', sans-serif;
     background-color: #0a0303;
     color: #fff;
@@ -203,12 +208,13 @@ p {
         position: relative;
         overflow-x: hidden;
         min-height: 100vh;
+        min-height: 100dvh;
     }
 
     .conteudo-principal {
         min-height: 100vh;
         min-height: 100dvh;
-        height: 100vh;
+        height: 100dvh;
         background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(109, 60, 28, 0.45)), url('fotofundocelular.png');
         background-position: center center;
         background-size: cover;
